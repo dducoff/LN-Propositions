@@ -1,0 +1,21 @@
+# Modifications
+# Do not include these files and directories in the .gitignore file:
+#   ./lake-manifest.json -- needed to verify compiles on Github
+#    The /lake-manifest.json file is automatically regenerated 
+#    whenever the lakefile.toml file or the lean-toolchain file is changed.
+#
+#   ./zSkunkworks/* -- ignored directories are not diplayed
+#    on in the Vscode file explorer, so, instead, we modifiy git -add:
+#          git add --all -- ':!zSkunkworks/*'
+#    which explicitly excludes adding the directory (recursively) 
+
+
+# The .lake directory contains the .olean binaries (about 7 gig!)
+/.lake
+
+# .DS_Store is an Macos artifact to be ignored everywhere.
+.DS_Store
+
+# ? why does this need to be added
+.github/*
+

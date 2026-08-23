@@ -1,0 +1,34 @@
+name = "LN-Propositions"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["LNPropositions"]
+
+# BEGIN modified leanOption to include:
+# disables Mathlib's docstring style checks for required 
+# copyright notices, license blocks, etc.
+# weak.linter.style.header = false
+
+[leanOptions]
+# `weak` allows downstream projects or imported libraries 
+# to dictate their own preference without hard clashes.
+
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+# disables Mathlib's docstring style checks for required 
+# copyright notices, license blocks, etc.
+weak.linter.style.header = false
+# END modified leanoptions file
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.0"
+
+[[lean_lib]]
+name = "Negation"
+
+#[[lean_lib]]
+#name = "Negation"
