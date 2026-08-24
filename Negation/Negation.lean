@@ -1,7 +1,7 @@
 import MathLib
 /-
 # Copyright, author credits and lean file annotations at: 
-FOO
+https://leannotes.wiki/Proofs/Propositional+Logic/Negation
 
 # Overview:
 Double negations can be removed or introduced in pairs.
