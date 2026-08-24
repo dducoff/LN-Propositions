@@ -1,7 +1,11 @@
-<div align="center">
-  <img width="200" height="219" alt="Robby and me 200 x 220" src="https://github.com/user-attachments/assets/f8ab6590-d7ef-4ffd-b441-7412ff02064a" />
-  <p>LN-Propositions - a LeanNotes repo</p>
+<div align="left">
+ <img width="200" height="221" alt="Robby and me" src="https://github.com/user-attachments/assets/655897ae-6e4f-4293-a779-2b08dcc0bc2f" />
+
+  <p>&emsp;&emsp;&nbsp;Robby and me</p>
 </div>
+
+## LN-Propositions - a LeanNotes repo
+
 
 - This repo contains propositional logic proofs written in Lean version **4.33.0**.
 - The [LeanNotes wiki](https://leannotes.wiki/LeanNotes+Home) contains pages that annotate these proofs.
